@@ -1,0 +1,42 @@
+.find{
+    max-width: 1040px;
+    margin: auto;
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+
+}
+.heading h3{
+    text-align: center;
+
+}
+.text_bg{
+    background: #c57c7c;
+    height: 50px;
+    max-width: 650px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -.6rem;
+    font-size: 1.4rem;
+
+}
+.slider_container{
+    padding: 5rem 0;
+}
+.card{
+    margin: .5rem;
+    border-radius: 10px;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+
+}

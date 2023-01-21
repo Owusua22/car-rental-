@@ -1,0 +1,60 @@
+.left img{
+    border-radius: 50%;
+    box-shadow: rgba(223, 156, 156, 0.2) 0px 2px 8px 0px;
+    max-width: 512px;
+    height: 400px;
+    
+}
+.drive{
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    padding: 1rem;
+}
+.drive h2{
+    padding-top: 30px;
+    font-weight: 800;
+}
+.drive span{
+    color: #c57c7c;
+}
+.drive p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1.3rem 0; 
+}
+.drive button{
+    background-color: #c57c7c;
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+.drive button:hover{
+    background-color: #634e4e;
+    transition: background-color 1s;
+}
+@media screen and (max-width:920px) 
+{
+.drive{
+    grid-template-columns: 1fr;
+}    
+
+.drive img{
+    max-width: 80%;
+    height: 290px;
+
+}
+.drive .left{
+    display: flex;
+    justify-content: center;
+}
+.drive h2{
+    padding-top: 10%;
+}
+}

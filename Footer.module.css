@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    column-gap: 10rem;
+    background-color: #c57c7c;
+    cursor: pointer;
+    padding: 2rem;
+    
+
+}
+.footer h2{
+    background: transparent;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.contact{
+    line-height: 3.5rem;
+}
+.footer p{
+    line-height: 3rem;
+    margin-left: 50px;
+}
+.footer form{
+    height: 50px;
+}
+.footer button{
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 30px;
+}
+.footer button:hover{
+    background-color: #d66868;
+    transition: background-color 1s;
+    
+}
+@media screen and (max-width:768px) {
+    .footer{
+        grid-template-columns:repeat(2,1fr);
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contact{
+        margin-left: 40px;
+    }
+    .footer .connect{
+        margin-left: 40px;
+    }
+    .footer form{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
